@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.7" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\mercadoeletronico.backendchallenge.DominioPedido\mercadoeletronico.backendchallenge.DominioPedido.csproj" />
+    <ProjectReference Include="..\mercadoeletronico.backendchallenge.Infraestrutura\mercadoeletronico.backendchallenge.Infraestrutura.csproj" />
+  </ItemGroup>
+
+
+</Project>

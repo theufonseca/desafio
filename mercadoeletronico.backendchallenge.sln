@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Aplicacao", "1 - Aplicacao", "{59A1039A-6D76-4F7B-8EB4-832B9C737164}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Dominio", "2 - Dominio", "{1A5DFF91-C993-4C4E-8115-F52987B20C3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infraestrutura", "3 - Infraestrutura", "{95032E61-F7C5-4D56-A6B8-FEFEB08D97FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Testes", "4 - Testes", "{6E1AD0AB-AFC8-4B55-9C71-549AA8E887D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mercadoeletronico.backendchallenge.apipedido", "mercadoeletronico.backendchallenge.apipedido\mercadoeletronico.backendchallenge.apipedido.csproj", "{156FA6F2-2871-497A-B734-E2809555F0D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mercadoeletronico.backendchallenge.DominioPedido", "mercadoeletronico.backendchallenge.DominioPedido\mercadoeletronico.backendchallenge.DominioPedido.csproj", "{760E0741-62B7-4363-8146-1E540F322D9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mercadoeletronico.backendchallenge.Infraestrutura", "mercadoeletronico.backendchallenge.Infraestrutura\mercadoeletronico.backendchallenge.Infraestrutura.csproj", "{E586E7EE-FCD8-4A89-A60E-53EBEEE3350F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mercadoeletronico.backendchallenge.Testes", "mercadoeletronico.backendchallenge.Testes\mercadoeletronico.backendchallenge.Testes.csproj", "{F30780CC-F959-4ADC-9E46-7744ED089786}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{156FA6F2-2871-497A-B734-E2809555F0D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156FA6F2-2871-497A-B734-E2809555F0D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156FA6F2-2871-497A-B734-E2809555F0D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156FA6F2-2871-497A-B734-E2809555F0D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{760E0741-62B7-4363-8146-1E540F322D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{760E0741-62B7-4363-8146-1E540F322D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{760E0741-62B7-4363-8146-1E540F322D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{760E0741-62B7-4363-8146-1E540F322D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E586E7EE-FCD8-4A89-A60E-53EBEEE3350F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E586E7EE-FCD8-4A89-A60E-53EBEEE3350F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E586E7EE-FCD8-4A89-A60E-53EBEEE3350F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E586E7EE-FCD8-4A89-A60E-53EBEEE3350F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F30780CC-F959-4ADC-9E46-7744ED089786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30780CC-F959-4ADC-9E46-7744ED089786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30780CC-F959-4ADC-9E46-7744ED089786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30780CC-F959-4ADC-9E46-7744ED089786}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{156FA6F2-2871-497A-B734-E2809555F0D0} = {59A1039A-6D76-4F7B-8EB4-832B9C737164}
+		{760E0741-62B7-4363-8146-1E540F322D9F} = {1A5DFF91-C993-4C4E-8115-F52987B20C3C}
+		{E586E7EE-FCD8-4A89-A60E-53EBEEE3350F} = {95032E61-F7C5-4D56-A6B8-FEFEB08D97FF}
+		{F30780CC-F959-4ADC-9E46-7744ED089786} = {6E1AD0AB-AFC8-4B55-9C71-549AA8E887D8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58947D08-B130-468B-9D96-51FF275C7971}
+	EndGlobalSection
+EndGlobal
